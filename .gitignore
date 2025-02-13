@@ -1,0 +1,46 @@
+# Ignore logs
+logs/
+*.log
+*.log.*
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore build directories
+**/target/
+**/build/
+
+# Ignore Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore NetBeans project files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore Docker files
+**/docker/
+**/docker-compose.yml
+
+# Ignore MySQL files
+**/mysql/
+
+# Ignore specific service directories
+inventory-service/target/
+order-service/target/
+product-service/target/
+inventory-service/build/
+order-service/build/
+product-service/build/
