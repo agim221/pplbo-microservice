@@ -49,4 +49,4 @@ api-gateaway/build/
 api-gateaway/target/
 
 # Ignore large files
-product-service/data/journal/WiredTigerLog.*
+product-service/data/*
