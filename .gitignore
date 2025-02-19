@@ -31,11 +31,12 @@ logs/
 .vscode/
 
 # Ignore Docker files
-**/docker/
-**/docker-compose.yml
+# **/docker/
+# **/docker-compose.yml
 
 # Ignore MySQL files
 **/mysql/
+api-gateaway/volume-data/mysql_keycloak_data/mysql.sock
 
 # Ignore specific service directories
 inventory-service/target/
@@ -44,3 +45,5 @@ product-service/target/
 inventory-service/build/
 order-service/build/
 product-service/build/
+api-gateaway/build/
+api-gateaway/target/
