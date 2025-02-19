@@ -47,3 +47,6 @@ order-service/build/
 product-service/build/
 api-gateaway/build/
 api-gateaway/target/
+
+# Ignore large files
+product-service/data/journal/WiredTigerLog.*
